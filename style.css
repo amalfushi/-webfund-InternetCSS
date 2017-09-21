@@ -1,13 +1,12 @@
 *{
     margin:0px;
     padding:0px;
-    border: 1px dotted maroon;
     font-family: arial;
 }
 
 #wrapper{
-    width: 970px;
-    height: 970px;
+    width: 1060px;
+    margin: 20px auto;
 }
 
 /* -------------------HEADER */
@@ -43,7 +42,8 @@
     background: linear-gradient(to bottom, #2968A0, #1C486E, #2968A0); /* Standard syntax */
     padding: 20px 10px 10px 20px;
     font-size: 30pt;
-    color: white
+    color: white;
+    display: block;
 }
 
 #subwrapper{
@@ -52,8 +52,9 @@
     background: -moz-linear-gradient(to bottom, #E3E3E3, white); /* Firefox 3.6-15 */
     background: linear-gradient(to bottom, #E3E3E3, white); /* Standard syntax */
     height: 300px;
-    margin-top: 140px;
+    margin-top: 137px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 20px 0px;
 }
@@ -117,7 +118,6 @@ h4 > span{
 #advertisement h2{
     color: white;
     text-align: center;
-    
 }
 
 #advertisement img{
@@ -136,15 +136,19 @@ height:149px;
 
 /* -------------MAIN PANEL */
 #main_panel{
-    width:675px;
+    width:755px;
     height: 800px; 
+    padding-right:20px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 #main_panel_header{
     height: 50px;
     display: flex;
     flex-direction:column;
-    border-bottom: 1px solid black;
+   
     padding-bottom:20px;
 }
 
@@ -160,14 +164,13 @@ height:149px;
     color: #22659E;
 }
 #contact_info{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     width: 200px;
     height: 50px;
     align-self: flex-end;
     text-align: right;
-    position: relative;
-    top:-60px;
+    position: absolute;
 }
 
 #contact_info p{
@@ -181,5 +184,61 @@ height:149px;
 
 #contact_info img{
     height: 40px;
-    /* display: inline-block; */
+}
+
+#main_footer{
+    display: flex;
+    flex-direction: row;
+    border: 5px solid #0085E0;
+    border-bottom: none;
+    padding: 5px 5px 0px 5px;
+    margin-top: 10px;
+}
+
+#sub_main{
+    margin-top:-5px;
+    border-top: 1px solid black;
+}
+
+#sub_main > img{
+    width: 400px;
+    align-self: center;
+}
+
+#sub_main img{
+    display: block;
+    margin: 10px auto;
+    height: 100px;
+    width: auto;
+}
+
+#main_footer img{
+    height: 140px;
+    display: inline-block;
+}
+
+#main_footer p, h2{
+    display: inline-block;
+}
+
+#main_footer h2{
+    margin-bottom: 10px;
+}
+
+#frustration_container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.blue{
+    color: #22659E; 
+}
+
+.bold{
+    font-weight: bold;
+}
+
+ul, ol{
+    margin-left: 50px;
 }
