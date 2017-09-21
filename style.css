@@ -1,0 +1,185 @@
+*{
+    margin:0px;
+    padding:0px;
+    border: 1px dotted maroon;
+    font-family: arial;
+}
+
+#wrapper{
+    width: 970px;
+    height: 970px;
+}
+
+/* -------------------HEADER */
+#header{
+    display:block;
+    height: 50px
+}
+
+#header img{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+}
+
+#header h1,h2{
+    display: block;
+}
+
+#header h1{
+    padding-left: 140px;
+    padding-top: 40px;
+    padding-bottom:10px;
+    font-size: 40pt;
+}
+#header h1>span{
+    color: #2968A0;
+}
+
+#header h2{
+    background: -webkit-linear-gradient(to middle, #2968A0, #1C486E, #2968A0); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(to bottom, #2968A0, #1C486E, #2968A0); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(to bottom, #2968A0, #1C486E, #2968A0); /* Firefox 3.6-15 */
+    background: linear-gradient(to bottom, #2968A0, #1C486E, #2968A0); /* Standard syntax */
+    padding: 20px 10px 10px 20px;
+    font-size: 30pt;
+    color: white
+}
+
+#subwrapper{
+    background: -webkit-linear-gradient(to middle, #E3E3E3, white); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(to bottom, #E3E3E3, white); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(to bottom, #E3E3E3, white); /* Firefox 3.6-15 */
+    background: linear-gradient(to bottom, #E3E3E3, white); /* Standard syntax */
+    height: 300px;
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+/* ---------------------LEFT PANEL */
+#left_panel{
+    width:225px;
+    height: 800px;
+}
+#left_panel img{
+    width: 225px;
+    height: 350px;
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+
+#left_panel button{
+    display: block;
+    font-size: 14pt;
+    color: white;
+    width: 225px;
+    padding: 7px;
+    margin: 4px 0px;
+    border-radius: 10px;
+}
+
+#left_panel h3{
+    padding: 5px 0px;
+}
+
+h3 > span{
+    color: #DA2C26;
+}
+
+h4 > span{
+    color: #3974A7;
+}
+
+#video{
+    background: -webkit-linear-gradient(to middle, #6096C1, #306A9C); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(to bottom, #6096C1, #306A9C); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(to bottom, #6096C1, #306A9C); /* Firefox 3.6-15 */
+    background: linear-gradient(to bottom, #6096C1, #306A9C); /* Standard syntax */
+}
+
+#resources{
+    background: -webkit-linear-gradient(to middle, #EBAC57, #EF7800); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(to bottom, #EBAC57, #EF7800); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(to bottom, #EBAC57, #EF7800); /* Firefox 3.6-15 */
+    background: linear-gradient(to bottom, #EBAC57, #EF7800); /* Standard syntax */
+}
+
+#advertisement{
+    position: relative;
+    top: -350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#advertisement h2{
+    color: white;
+    text-align: center;
+    
+}
+
+#advertisement img{
+width: 110px;
+height:149px;
+}
+
+#left_panel button:last-child{
+    background: -webkit-linear-gradient(to middle, #72CFDF, #00C1DF); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(to bottom, #72CFDF, #00C1DF); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(to bottom, #72CFDF, #00C1DF); /* Firefox 3.6-15 */
+    background: linear-gradient(to bottom, #72CFDF, #00C1DF); /* Standard syntax */
+    width: 190px;
+    margin: 10px;
+}
+
+/* -------------MAIN PANEL */
+#main_panel{
+    width:675px;
+    height: 800px; 
+}
+
+#main_panel_header{
+    height: 50px;
+    display: flex;
+    flex-direction:column;
+    border-bottom: 1px solid black;
+    padding-bottom:20px;
+}
+
+#home_image{
+    width: 25px;
+    height: 25px;
+}
+
+#main_panel h2{
+    display: inline;
+    vertical-align: top;
+    font-size: 25px;
+    color: #22659E;
+}
+#contact_info{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 50px;
+    align-self: flex-end;
+    text-align: right;
+    position: relative;
+    top:-60px;
+}
+
+#contact_info p{
+    font-size: 8pt;
+}
+
+#contact_info span{
+    font-size: 18pt;
+    color:#09C1DF;
+}
+
+#contact_info img{
+    height: 40px;
+    /* display: inline-block; */
+}
